@@ -5,12 +5,12 @@ This code provides a framework for loading, processing, and analyzing multiple J
 Input Data:
 The code expects all JSON files to be stored in a designated directory (e.g., Documents/Data).
 Each file should represent data for a distinct entity or category (e.g., a user, a project, or a system) and can include hierarchical structures.
-Data Loading:
 
+Data Loading:
 The script iterates through all files in the specified directory (and its subdirectories).
 Each JSON file is read and loaded into Python, with data stored in a list or DataFrame for processing.
-Data Processing:
 
+Data Processing:
 The code extracts relevant details, such as unique entity identifiers (entity_id, entity_name) and associated attributes.
 Nested JSON categories are automatically expanded using the expand_nested_categories function, which recursively flattens nested dictionaries into a tabular format.
 
